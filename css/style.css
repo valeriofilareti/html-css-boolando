@@ -1,0 +1,66 @@
+/* general */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.flex-container {
+  display: flex;
+}
+/* /general */
+
+/* header */
+header {
+  height: 70px;
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+}
+header > div {
+  justify-content: space-between;
+}
+nav, .logo, .icons {
+  width: 30%;
+  height: 70px;
+  background-color: aqua;
+  display: inline-block;
+}
+/* /header */
+
+/* main */
+.container.shop {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card {
+  width: 30%;
+  min-width: 300px;
+  background-color: aquamarine;
+  border: 1px solid black;
+  margin-bottom: 60px;
+}
+.img {
+  min-width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+.card span {
+  display: block;
+}
+/* /main */
+
+
+
+
+
+footer {
+  height: 100px;
+  background-color: black;
+}
+
