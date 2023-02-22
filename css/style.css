@@ -32,6 +32,7 @@ header {
   top: 0;
   z-index: 999;
   background-color: #f66905;
+  box-shadow: 0 0 10px black;
 }
 header > div {
   justify-content: space-between;
@@ -134,15 +135,38 @@ main {
 .special-price {
   color: #f41214;
 }
-
 /* /main */
 
-
-
-
-
+/* footer */
 footer {
   height: 100px;
   background-color: black;
 }
+footer, footer a {
+  color: white;
+}
+footer a {
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: 100;
+}
+.informations, .socials {
+  width: 49%;
+  height: 100px;
+  display: inline-block;
+}
+.informations {
+  padding-top: 35px;
+}
+footer h4 {
+  padding-bottom: 5px;
+  font-size: 16px;
+  font-weight: 100;
+}
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+/* /footer */
 
